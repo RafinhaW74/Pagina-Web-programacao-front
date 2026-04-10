@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nome {
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    color: lightblue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-style: italic;
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 10px;
+}
