@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.formulario {
+    width: 300px;
+    margin: 40px auto 10px auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+#botaoEnviar {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold; /* estilo de fonte */
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    border: 2px solid blue;
+}
+
+#botaoEnviar:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+label {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(104, 197, 228);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(255, 255, 0);
+    text-decoration: underline;
+}
+
+#validacao {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
